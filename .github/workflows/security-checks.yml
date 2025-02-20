@@ -13,7 +13,7 @@ permissions:
 jobs:
   Scans:
     name: Scans
-    uses: ncino/security-checks/.github/workflows/security-checks.yml@v4.0.1
+    uses: ncino/security-checks/.github/workflows/security-checks.yml@v5
     with:
       semgrep_run: true
       trufflehog_run: true
